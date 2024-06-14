@@ -95,3 +95,70 @@ footer{
 .footer-right ul li a:hover {
     text-decoration: underline;
 }
+
+/* HOME */
+.bow-tique-logo {
+    width: 25%;
+}
+.home-carosel {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#home-welcome {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.555);
+    border-radius: 5px;
+}
+
+#home-coloumns {
+    width: 100%;
+    background-color: rgb(255, 173, 187);
+    color: white;
+}
+
+.home-img {
+    width: 30%;
+}
+
+.grid-img {
+    width: 100%;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.img-container {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container:hover .overlay {
+    opacity: 1;
+}
+
+.view-more {
+    color: pink;
+    padding: 5% 10%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-decoration: none;
+    border-radius: 5rem;
+}
