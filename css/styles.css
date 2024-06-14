@@ -435,3 +435,213 @@ main.about-page {
 .social-icons img {
     width: 65%;
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 300px) {
+    
+    .cart {
+        width: 10%;
+        height: 10%;
+    }
+
+    .home-carosel {
+        width: 100%;
+    }
+
+    #home-coloumns h5 {
+        font-size: 50%;
+    }
+
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 10%;
+        gap: 1%;
+        padding: 10%;
+    }
+
+    .product-card {
+        border: 1px solid #ddd;
+        text-align: center;
+    }
+
+    .product-card img {
+        max-width: 50%;
+        height: auto;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+    }
+
+    .product-card button {
+        margin: 10%;
+        width: 50%;
+    }
+}
+
+main {
+    flex: 1;
+}
+
+@media (max-width: 300px) {
+    body {
+        margin-top: 30px;
+        margin-bottom: 80px;
+    }
+
+    .cart {
+        width: 10%;
+        height: 10%;
+    }
+
+    .d-inline-block {
+        height: 40px;
+    }
+
+    #nv {
+        height: 30%;
+    }
+
+    .bow-tique-logo {
+        width: 50%;
+    }
+
+    .home-carosel {
+        width: 100%;
+    }
+
+    #home-welcome {
+        width: 90%;
+    }
+
+    .home-img {
+        width: 50%;
+    }
+
+    .grid-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .view-more {
+        padding: 10% 20%;
+    }
+
+    main.about-page {
+        width: 90%;
+        margin: 5% auto;
+        padding: 5%;
+    }
+
+    #about-h1 {
+        padding: 2%;
+    }
+
+    .about-section {
+        margin-bottom: 10px;
+    }
+
+    .about-section h2 {
+        font-size: 18px;
+    }
+
+    .about-section p {
+        font-size: 14px;
+    }
+
+    #search-div {
+        flex-direction: column;
+        align-items: center;
+        gap: 5%;
+    }
+
+    #searchInput,
+    #categoryFilter,
+    #searchButton {
+        width: 80%;
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
+
+    .product-card {
+        padding: 10%;
+    }
+
+    .product-card img {
+        max-width: 80%;
+    }
+
+    .product-card button {
+        width: 80%;
+    }
+
+    .modal-content {
+        width: 90%;
+        padding: 5%;
+    }
+
+    .contact-container {
+        width: 90%;
+        padding: 5%;
+    }
+
+    .contact-header h3 {
+        font-size: 18px;
+    }
+
+    .contact-header p {
+        font-size: 14px;
+    }
+
+    .social-icons img {
+        width: 50%;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .footer h5 {
+        font-size: 14px;
+    }
+
+    .footer a {
+        font-size: 12px;
+    }
+
+    .main-content {
+        padding-top: 5%;
+    }
+
+    .table-responsive {
+        margin-top: 10%;
+    }
+
+    .table th, .table td {
+        padding: 2%;
+        font-size: 12px;
+    }
+
+    .quantity-buttons {
+        flex-direction: column;
+    }
+
+    .total-amount {
+        text-align: center;
+    }
+
+    #checkout-button {
+        width: 80%;
+    }
+
+    #search-div {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    #searchInput, #categoryFilter, #searchButton {
+        width: 100%;
+    }
+}
