@@ -162,3 +162,40 @@ footer{
     text-decoration: none;
     border-radius: 5rem;
 }
+/* ABOUT */
+#abt-body {
+    background-image: url('https://i.postimg.cc/dV82rhfQ/Untitled-design-6.png');
+}
+
+main.about-page {
+    max-width: 80%;
+    margin: 5% auto;
+    padding: 2.5%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#about-h1 {
+    background-color: #ff69b4;
+    color: white;
+    padding: 1%;
+    text-align: center;
+}
+
+.about-section {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-section h2 {
+    color: #ff69b4;
+    border-bottom: 2px solid #ff69b4;
+}
+
+.about-section p {
+    color: #333;
+    line-height: 1.8;
+}
+
+/* PRODUCTS */
