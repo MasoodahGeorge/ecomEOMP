@@ -394,4 +394,44 @@ main.about-page {
     background-color: pink;
     color: white;
 }
-/*  */
+/* CONTACT */
+#contact-body{
+    background-image: url('https://i.postimg.cc/dV82rhfQ/Untitled-design-6.png');
+}
+.contact-container {
+    max-width: 70%;
+    margin: auto;
+    background: #fff;
+    padding: 2.5%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-header {
+    text-align: center;
+    
+}
+
+.contact-header h3 {
+    background-color: #ff69b4;
+    color: white;
+    padding: 1%;
+    text-align: center;
+}
+
+.contact-header p {
+    color: #555;
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-icons a {
+    margin: 1%;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 65%;
+}
