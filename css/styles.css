@@ -199,3 +199,183 @@ main.about-page {
 }
 
 /* PRODUCTS */
+#search-div {
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+
+#searchInput,
+#categoryFilter,
+#searchButton {
+    padding: 1%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#searchButton {
+    background-color: pink;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#searchButton:hover {
+    background-color: rgb(255, 160, 176);
+}
+
+#product-cards {
+    background-image: url('');
+    padding-bottom: 5%;
+
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+    padding: 5%;
+}
+
+.product-card {
+    padding: 5%;
+    text-align: center;
+    border-radius: 5%;
+    background-color: rgba(255, 255, 255, 0.37);
+    /* Pink background with 1% opacity */
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.product-card img {
+    max-width: 50%;
+    height: auto;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card:hover img {
+    transform: scale(1.1);
+}
+
+.product-card button {
+    margin: 5%;
+    color: white;
+    background-color: rgb(224, 123, 140);
+    border: none;
+    border-radius: 5px;
+}
+
+.product-card:hover button {
+    background-color: rgb(224, 103, 123);
+}
+
+/* Modal */
+.modal {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 0 auto;
+    padding: 2%;
+    border: 1px solid #888;
+    width: 50%;
+    position: relative;
+    max-height: 80%;
+    overflow-y: hidden;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-details {
+    text-align: left;
+}
+
+.modal-details h2 {
+    margin-top: 0;
+}
+
+.modal-details p {
+    margin-bottom: 1%;
+}
+
+.modal-content img {
+    width: 100%;
+    height: auto;
+    /* Ensure images resize proportionally */
+    max-height: 300px;
+    /* Limit image height if necessary */
+    object-fit: contain;
+}
+/* CART */
+#cart-body {
+    background-image: url('https://i.postimg.cc/dV82rhfQ/Untitled-design-6.png');
+}
+
+#cart-heading {
+    justify-content: center;
+    text-align: center;
+}
+
+.main-content {
+    padding-top: 10%;
+}
+
+.table-responsive {
+    margin-top: 5%;
+}
+
+.table {
+    width: 100%;
+    background-color: #fff;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 1%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
+
+.quantity-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.total-amount {
+    text-align: end;
+}
+
+#checkout-button {
+    background-color: rgb(255, 140, 159);
+    border: none;
+}
+/* ADMIN */
