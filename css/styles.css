@@ -379,3 +379,19 @@ main.about-page {
     border: none;
 }
 /* ADMIN */
+#admin-body{
+    background-image: url('https://i.postimg.cc/dV82rhfQ/Untitled-design-6.png');
+}
+.table img {
+    width: 50px;
+}
+.table button{
+    background-color: #ff69b4;
+    border: none;
+    color: white;
+}
+#edit-btn:hover{
+    background-color: pink;
+    color: white;
+}
+/*  */
